@@ -60,6 +60,12 @@ if __name__ == "__main__":
     analyzer.export_to_word('data_analysis_report.docx')
     print("Data analysis report saved to data_analysis_report.docx")
 ```
+# Visualizations
+
+### Boxplot
+![Boxplot of Numeric Columns](https://github.com/Harsha2k2/allin1analysis/blob/main/Boxplog.png)
+### Distribution
+![Distribution of Data](https://github.com/Harsha2k2/allin1analysis/blob/main/Distributions.png)
 # Example Output
 The tool generates a Word document named data_analysis_report.docx, which includes:
 A summary of missing values.
