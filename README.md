@@ -70,3 +70,7 @@ if __name__ == "__main__":
 The tool generates a Word document named data_analysis_report.docx, which includes:
 A summary of missing values.
 Visualizations such as boxplots and distribution plots.
+
+## License
+
+This project is licensed under a Proprietary License. It is provided for evaluation purposes only and cannot be used commercially without permission from the author.
