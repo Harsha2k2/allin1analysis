@@ -27,25 +27,30 @@ python
 import pandas as pd
 
 # Generate sample data for testing
+```
 df = generate_sample_data()
-
+```
 Initialize the Analyzer:
 Create an instance of the AdvancedDataAnalyzer class with your DataFrame.
 python
+```
 analyzer = AdvancedDataAnalyzer(df)
-
+```
 Perform Analysis:
 Call methods to analyze your data:
 python
 # Find missing values
+```
 missing_values = analyzer.find_missing_values()
-
+```
 # Handle duplicates
+```
 duplicates = analyzer.handle_duplicates(remove=True)
-
+```
 # Generate visualizations
+```
 visualizations = analyzer.generate_visualizations()
-
+```
 # Export to Word document
 ```
 analyzer.export_to_word('data_analysis_report.docx')
